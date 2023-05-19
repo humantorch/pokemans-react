@@ -1,0 +1,26 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero {
+    width: 80%;
+}
+.columns {
+    height: calc(100vh - 113px);
+}
+.column {
+    /* margin: 0; */
+    overflow: scroll;
+}
+.typeslist {
+    background-color:antiquewhite;
+}
+.pokemanslist {
+    background-color: bisque;
+}
+.favouriteslist {
+    background-color: lightcyan;
+    margin-top: -113px !important;
+    box-shadow: 0 0 25px black;
+    min-height: 100vh;
+}
